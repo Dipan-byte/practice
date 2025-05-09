@@ -1,0 +1,28 @@
+#counter{
+   
+    color: rgb(251, 71, 89);
+    font-size: 100px;
+
+    
+}
+#container1{
+    display: flex;
+    justify-content: center;
+}
+#container2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.btn{
+    padding: 20px 50px ;
+    border-radius: 10px;
+    background-color: rgb(250, 144, 117);
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.25s ease-in-out;
+}
+.btn:hover{
+    background-color: rgb(250, 98, 60) ;
+}
