@@ -15,5 +15,10 @@ app.use(cookieParser());
     res.render("index.ejs")
 
  }) ;
+ app.post("/register" , (req , res ) => {
+   
+
+ }) ;
+
 
  app.listen(3000) ;
